@@ -1,0 +1,146 @@
+{
+  "users": [
+    {
+      "username": "chtarsln",
+      "fullname": "Cahit Arslan",
+      "password": "eb5b044b0c244d97ca159919d7cf8c469dd853d7",
+      "id": 1
+    },
+    {
+      "username": "prototurk",
+      "fullname": "Tayfun Erbilen",
+      "password": "eb5b044b0c244d97ca159919d7cf8c469dd853d7",
+      "id": 2
+    }
+  ],
+  "user_likes": [
+    {
+      "userId": 1,
+      "bookmarkId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 4,
+      "id": 4
+    }
+  ],
+  "user_bookmarks": [
+    {
+      "userId": 1,
+      "bookmarkId": 2,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 3,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 6,
+      "id": 3
+    }
+  ],
+  "bookmarks": [
+    {
+      "title": "Vue Dokümantasyon",
+      "url": "https://v3.vuejs.org",
+      "categoryId": 1,
+      "description": "Dünyanın en güzel framework'ü",
+      "userId": 1,
+      "created_at": "2022-08-14T11:54:34.775Z",
+      "id": 1
+    },
+    {
+      "title": "Frontend Masters",
+      "url": "http://...",
+      "categoryId": 2,
+      "description": "Çok güzel bir kaynak..",
+      "userId": 1,
+      "created_at": "2022-08-14T11:57:50.130Z",
+      "id": 2
+    },
+    {
+      "title": "AWS",
+      "url": "https://aws",
+      "categoryId": 5,
+      "description": "çok güzel",
+      "userId": 1,
+      "created_at": "2022-08-14T11:59:20.103Z",
+      "id": 3
+    },
+    {
+      "title": "Güzel Müzikler",
+      "url": "https://...",
+      "categoryId": 6,
+      "description": "Çok güzel müzikler ama gerçekten çok güzel",
+      "userId": 1,
+      "created_at": "2022-08-14T12:11:08.753Z",
+      "id": 4
+    },
+    {
+      "title": "Prototürk",
+      "url": "https://prototurk.com",
+      "categoryId": 4,
+      "description": "Türkiye'nin StackOverflow'u olacak bir sayfa",
+      "userId": 2,
+      "created_at": "2022-08-14T15:36:16.700Z",
+      "id": 5
+    },
+    {
+      "title": "Marvel Filmleri",
+      "url": "https://...",
+      "categoryId": 6,
+      "description": "Bu serinin tamamını kesinlikle izle",
+      "userId": 2,
+      "created_at": "2022-08-14T16:42:18.575Z",
+      "id": 6
+    },
+    {
+      "title": "Kablosuz Beyin",
+      "url": "https://kablosuzbeyin.com",
+      "categoryId": 6,
+      "description": "Kablosuz beyin etkinlikler için...",
+      "userId": 2,
+      "created_at": "2022-08-14T16:57:05.327Z",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vue.js",
+      "id": 1
+    },
+    {
+      "name": "React.js",
+      "id": 2
+    },
+    {
+      "name": "Frontend",
+      "id": 3
+    },
+    {
+      "name": "Backend",
+      "id": 4
+    },
+    {
+      "name": "Cloud",
+      "id": 5
+    },
+    {
+      "name": "Sosyal Yaşam",
+      "id": 6
+    }
+  ]
+}
