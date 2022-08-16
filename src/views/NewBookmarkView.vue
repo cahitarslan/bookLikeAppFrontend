@@ -53,8 +53,6 @@ export default {
     },
     methods: {
         onSave() {
-            console.log(this.userData);
-            console.log(this._getCurrentUser);
             const saveData = {
                 ...this.userData,
                 userId: this._getCurrentUser?.id,
@@ -69,8 +67,14 @@ export default {
                 //     categoryId: null,
                 //     description: null
                 // }
+                const socketData = {
+                    ...save_bookmark_response.data,
+                    user: this._getCurrentUser,
+                    category: this.categoryList?.find(c => c.id === saveData.categoryId)
+                }
 
-                this.$router.push({ name: "HomePage" })
+                this.$socket.emit("NEW_BOOKMARK_EVENT", socketData);
+                this.$router.push({ name: "HomePage" });
             })
         }
     },

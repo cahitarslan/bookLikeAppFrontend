@@ -18,6 +18,11 @@ export default {
             bookmarkList: []
         }
     },
+    mounted() {
+        this.$socket.on("NEW_BOOKMARK_ADDED", (bookmark) => {
+            this.bookmarkList.push(bookmark);
+        });
+    },
     created() {
         this.fetchData();
     },

@@ -11,50 +11,96 @@
       "fullname": "Tayfun Erbilen",
       "password": "eb5b044b0c244d97ca159919d7cf8c469dd853d7",
       "id": 2
+    },
+    {
+      "username": "test",
+      "fullname": "test",
+      "password": "eb5b044b0c244d97ca159919d7cf8c469dd853d7",
+      "id": 3
     }
   ],
   "user_likes": [
     {
-      "userId": 1,
-      "bookmarkId": 1,
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "bookmarkId": 2,
-      "id": 2
+      "userId": 2,
+      "bookmarkId": 11,
+      "id": 5
     },
     {
       "userId": 1,
       "bookmarkId": 3,
-      "id": 3
+      "id": 7
     },
     {
       "userId": 1,
-      "bookmarkId": 4,
-      "id": 4
+      "bookmarkId": 5,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 6,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 7,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 8,
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 9,
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 10,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "bookmarkId": 16,
+      "id": 14
     }
   ],
   "user_bookmarks": [
     {
       "userId": 1,
-      "bookmarkId": 2,
-      "id": 1
+      "bookmarkId": 7,
+      "id": 6
     },
     {
       "userId": 1,
-      "bookmarkId": 3,
-      "id": 2
+      "bookmarkId": 9,
+      "id": 7
     },
     {
-      "userId": 1,
+      "userId": 2,
+      "bookmarkId": 4,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 5,
+      "id": 10
+    },
+    {
+      "userId": 2,
       "bookmarkId": 6,
-      "id": 3
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 7,
+      "id": 12
     }
   ],
   "bookmarks": [
     {
-      "title": "Vue Dokümantasyon",
+      "title": "Vue Docs",
       "url": "https://v3.vuejs.org",
       "categoryId": 1,
       "description": "Dünyanın en güzel framework'ü",
@@ -63,7 +109,7 @@
       "id": 1
     },
     {
-      "title": "Frontend Masters",
+      "title": "Frontend Mast",
       "url": "http://...",
       "categoryId": 2,
       "description": "Çok güzel bir kaynak..",
@@ -115,6 +161,87 @@
       "userId": 2,
       "created_at": "2022-08-14T16:57:05.327Z",
       "id": 7
+    },
+    {
+      "title": "Yeni Yer İmi",
+      "url": "http://....",
+      "categoryId": 2,
+      "description": "aaaa",
+      "userId": 1,
+      "created_at": "2022-08-15T13:32:32.772Z",
+      "id": 8
+    },
+    {
+      "title": "yeni",
+      "url": "https://yeni.com",
+      "categoryId": 4,
+      "description": "test deneme123",
+      "userId": 1,
+      "created_at": "2022-08-15T13:35:21.221Z",
+      "id": 9
+    },
+    {
+      "title": "test",
+      "url": "deneme",
+      "categoryId": 3,
+      "description": "asdfsdfasdf",
+      "userId": 1,
+      "created_at": "2022-08-15T13:59:51.546Z",
+      "id": 10
+    },
+    {
+      "title": "Başlık",
+      "url": "http://...",
+      "categoryId": 5,
+      "description": "asdfsdf",
+      "userId": 1,
+      "created_at": "2022-08-15T14:03:21.088Z",
+      "id": 11
+    },
+    {
+      "title": "deneme",
+      "url": "http",
+      "categoryId": 2,
+      "description": "asdfsdfasdfasdf",
+      "userId": 1,
+      "created_at": "2022-08-16T12:01:34.470Z",
+      "id": 12
+    },
+    {
+      "title": "TEST",
+      "url": "aslkfdjaslkdf",
+      "categoryId": 5,
+      "description": "asdfasdfsadfds",
+      "userId": 1,
+      "created_at": "2022-08-16T12:22:18.593Z",
+      "id": 13
+    },
+    {
+      "title": "test2",
+      "url": "asdfkjasld",
+      "categoryId": 3,
+      "description": "asdfsadfasd f ads fas dfs dfsadf asdf",
+      "userId": 2,
+      "created_at": "2022-08-16T12:25:40.576Z",
+      "id": 14
+    },
+    {
+      "title": "test3",
+      "url": "vxzvczxcvzxcv",
+      "categoryId": 3,
+      "description": "asdfasdf sdf sd fsad fsad f",
+      "userId": 1,
+      "created_at": "2022-08-16T12:44:37.467Z",
+      "id": 15
+    },
+    {
+      "title": "test4",
+      "url": "asdfsadf",
+      "categoryId": 4,
+      "description": "asdfsdf sad fsadf asdf",
+      "userId": 3,
+      "created_at": "2022-08-16T12:57:35.026Z",
+      "id": 16
     }
   ],
   "categories": [
